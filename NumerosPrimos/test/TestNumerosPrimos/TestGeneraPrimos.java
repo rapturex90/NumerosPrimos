@@ -29,6 +29,7 @@ public class TestGeneraPrimos {
         }
     }
 
+    @Test
     public void TestGeneraPrimos3() {
         int[] arrayTres = CribaEratostenes.generarPrimos(3);
         for (int i = 0; i < arrayTres.length; i++) {
